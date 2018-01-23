@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <style>
+    *{ margin: 0; padding: 0;}
+   
+    img{
+      display: block;
+      border: none;
+      vertical-align: top;
+      width:100%;
+    }
+	
+    .video{
+      position: relative;
+      vertical-align: top;
+      padding-top:0%;
+      padding-bottom:56.25%;
+      overflow: hidden;
+    }
+
+    .video iframe, object, embed, video{
+      position: absolute;
+      vertical-align: top;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      border: none;
+    }
+
+    .svg_fig{
+      position: relative;
+      vertical-align: top;
+      width:100%;
+	  height:auto;
+      margin: 0;
+      overflow: hidden;
+    
+    }
+    .svg{
+      position: absolute;
+      display: inline-block;
+      top:0;
+      left:0;
+    }
+  
+
+  </style>
+</head>
+<body>
+<div id="wrap">
+    <div>
+		<img src="images/top.jpg" alt="">
+	</div>
+    <div>
+		<img src="images/po.jpg" alt="">
+	</div>
+    <div>
+		<img src="images/tit.jpg" alt="">
+	</div>
+    <div class="video">
+		<figure>
+        <video loop autoplay controls>
+			<source src="http://img.zne.kr/mailzine2017/71_monstercall/mailzine/_/event.mp4" type="video/mp4"/>
+        </video>
+        </figure>
+	</div>
+    <div>
+		<img src="images/info_tit.jpg" alt="">
+	</div>
+    <div>
+   		
+        <figure class="svg_fig">
+         <svg viewBox="0,0,640,289" class="svg">
+          
+    	<!--영화정보-->
+          <a xlink:href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=125401" target="_blank">
+            <rect x="480" y="40" width="120" height="37" fill="#f00" opacity="0">
+          </a>
+    	<!--페이스북-->
+          <a xlink:href="https://www.facebook.com/lotteent.movie/?fref=ts" target="_blank">
+            <rect x="480" y="75" width="120" height="37" fill="#f00" opacity="0">
+          </a>
+    	<!--인스타그램-->
+          <a xlink:href="https://www.instagram.com/lotteent.movie/" target="_blank">
+            <rect x="480" y="115" width="120" height="37" fill="#f00" opacity="0">
+          </a>
+         </svg>
+         <img src="images/monstercall_640_06.jpg" alt="">
+        </figure>
+	</div>
+    <div>
+		<img src="images/rv.jpg" alt="">
+	</div>
+    <div>
+		<img src="images/still.jpg" alt="">
+	</div>
+    <div>
+		<img src="images/synop.jpg" alt="">
+	</div>
+</div>
+</body>
+</html>
